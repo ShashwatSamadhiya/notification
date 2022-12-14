@@ -19,7 +19,7 @@ Widget n1(BuildContext context) {
     height: 62,
     child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
       Container(
-        padding: EdgeInsets.only(left: 16, top: 12),
+        padding: EdgeInsets.only(left: 11, top: 12),
         child: Image.asset("assests/images/missed.png"),
       ),
       // SizedBox(
@@ -41,7 +41,7 @@ Widget n1(BuildContext context) {
                   TextSpan(
                       text: "Zain Bergson",
                       style:
-                          TextStyle(fontWeight: FontWeight.w500, fontSize: 15)),
+                          TextStyle(fontWeight: FontWeight.w600, fontSize: 15)),
                 ])),
             const Padding(padding: EdgeInsets.symmetric(vertical: 2)),
             Text(
@@ -82,7 +82,7 @@ Widget n2(BuildContext context) {
                   TextSpan(
                       text: "\$0.4",
                       style: TextStyle(
-                          fontWeight: FontWeight.w500,
+                          fontWeight: FontWeight.w600,
                           fontSize: 15,
                           color: Colors.red)),
                 ])),
@@ -92,7 +92,7 @@ Widget n2(BuildContext context) {
             Container(
                 width: 90,
                 height: 32,
-                padding: EdgeInsets.symmetric(vertical: 8),
+                padding: EdgeInsets.symmetric(vertical: 8, horizontal: 4),
                 decoration: BoxDecoration(
                     color: Color(0xfff3A3A3C),
                     borderRadius: BorderRadius.circular(16)),
@@ -101,7 +101,7 @@ Widget n2(BuildContext context) {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       color: Colors.white,
-                      fontWeight: FontWeight.w500,
+                      fontWeight: FontWeight.w400,
                       fontSize: 13,
                       letterSpacing: 1),
                 )),
@@ -141,7 +141,7 @@ Widget n3(BuildContext context) {
               "+91 94784 47929",
               style: TextStyle(
                   color: Colors.white,
-                  fontWeight: FontWeight.w500,
+                  fontWeight: FontWeight.w600,
                   fontSize: 15),
             ),
             SizedBox(
@@ -151,7 +151,7 @@ Widget n3(BuildContext context) {
             Container(
                 width: 72,
                 height: 32,
-                padding: EdgeInsets.symmetric(vertical: 8),
+                padding: EdgeInsets.symmetric(vertical: 8, horizontal: 4),
                 decoration: BoxDecoration(
                     color: Color(0xfff3A3A3C),
                     borderRadius: BorderRadius.circular(16)),
@@ -160,7 +160,7 @@ Widget n3(BuildContext context) {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       color: Colors.white,
-                      fontWeight: FontWeight.w500,
+                      fontWeight: FontWeight.w400,
                       fontSize: 13,
                       letterSpacing: 1),
                 )),
@@ -200,7 +200,7 @@ Widget n4(BuildContext context) {
                       text: "+ \$120.99",
                       style: TextStyle(
                           color: Color.fromARGB(255, 68, 238, 74),
-                          fontWeight: FontWeight.w500,
+                          fontWeight: FontWeight.w600,
                           fontSize: 15))
                 ])),
             const Padding(padding: EdgeInsets.symmetric(vertical: 2)),
@@ -247,7 +247,7 @@ Widget n5(BuildContext context) {
               "\$120.99",
               style: TextStyle(
                   color: Colors.white,
-                  fontWeight: FontWeight.w500,
+                  fontWeight: FontWeight.w600,
                   fontSize: 15),
             ),
             SizedBox(
@@ -257,7 +257,7 @@ Widget n5(BuildContext context) {
             Container(
                 width: 72,
                 height: 32,
-                padding: EdgeInsets.symmetric(vertical: 8),
+                padding: EdgeInsets.symmetric(vertical: 8, horizontal: 4),
                 decoration: BoxDecoration(
                     color: Color(0xfff3A3A3C),
                     borderRadius: BorderRadius.circular(16)),
@@ -266,7 +266,7 @@ Widget n5(BuildContext context) {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       color: Colors.white,
-                      fontWeight: FontWeight.w500,
+                      fontWeight: FontWeight.w400,
                       fontSize: 13,
                       letterSpacing: 1),
                 )),
@@ -353,7 +353,7 @@ Widget n7(BuildContext context) {
                       text: "Active",
                       style: TextStyle(
                           color: Color.fromARGB(255, 68, 238, 74),
-                          fontWeight: FontWeight.w500,
+                          fontWeight: FontWeight.w600,
                           fontSize: 13))
                 ])),
             const Padding(padding: EdgeInsets.symmetric(vertical: 2)),
@@ -400,7 +400,7 @@ Widget n8(BuildContext context) {
                       text: "Safari browser (Mac OS)",
                       style: TextStyle(
                           //color: Color.fromARGB(255, 68, 238, 74),
-                          fontWeight: FontWeight.w500,
+                          fontWeight: FontWeight.w600,
                           fontSize: 15))
                 ])),
             const Padding(padding: EdgeInsets.symmetric(vertical: 2)),
@@ -457,7 +457,7 @@ Widget n9(BuildContext context) {
                     style: TextStyle(
                       fontSize: 15,
                       color: Color.fromARGB(255, 224, 68, 238),
-                      fontWeight: FontWeight.w500,
+                      fontWeight: FontWeight.w600,
                     ),
                     children: const <TextSpan>[
                   TextSpan(
@@ -474,7 +474,7 @@ Widget n9(BuildContext context) {
             Container(
                 width: 124,
                 height: 32,
-                padding: EdgeInsets.symmetric(vertical: 8),
+                padding: EdgeInsets.symmetric(vertical: 8, horizontal: 4),
                 decoration: BoxDecoration(
                     color: Color(0xfff3A3A3C),
                     borderRadius: BorderRadius.circular(16)),
@@ -483,7 +483,7 @@ Widget n9(BuildContext context) {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       color: Colors.white,
-                      fontWeight: FontWeight.w500,
+                      fontWeight: FontWeight.w400,
                       fontSize: 13,
                       letterSpacing: 1),
                 )),
@@ -534,7 +534,7 @@ Widget n10(BuildContext context) {
             Container(
                 width: 72,
                 height: 32,
-                padding: EdgeInsets.symmetric(vertical: 8),
+                padding: EdgeInsets.symmetric(vertical: 8, horizontal: 4),
                 decoration: BoxDecoration(
                     color: Color(0xfff3A3A3C),
                     borderRadius: BorderRadius.circular(16)),
@@ -543,7 +543,7 @@ Widget n10(BuildContext context) {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       color: Colors.white,
-                      fontWeight: FontWeight.w500,
+                      fontWeight: FontWeight.w400,
                       fontSize: 13,
                       letterSpacing: 1),
                 )),
@@ -591,7 +591,7 @@ Widget n11(BuildContext context) {
                       text: "+91 94784 47929",
                       style: TextStyle(
                           //color: Color.fromARGB(255, 68, 238, 74),
-                          fontWeight: FontWeight.w500,
+                          fontWeight: FontWeight.w600,
                           fontSize: 15))
                 ])),
             const Padding(padding: EdgeInsets.symmetric(vertical: 2)),
@@ -608,7 +608,7 @@ Widget n11(BuildContext context) {
             Container(
                 width: 139,
                 height: 32,
-                padding: EdgeInsets.symmetric(vertical: 8),
+                padding: EdgeInsets.symmetric(vertical: 8, horizontal: 4),
                 decoration: BoxDecoration(
                     color: Color(0xfff3A3A3C),
                     borderRadius: BorderRadius.circular(16)),
@@ -617,7 +617,7 @@ Widget n11(BuildContext context) {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       color: Colors.white,
-                      fontWeight: FontWeight.w500,
+                      fontWeight: FontWeight.w400,
                       fontSize: 13,
                       letterSpacing: 1),
                 )),
@@ -664,7 +664,7 @@ Widget n12(BuildContext context) {
                   TextSpan(
                       text: "+1 46273 38273",
                       style:
-                          TextStyle(fontWeight: FontWeight.w500, fontSize: 15)),
+                          TextStyle(fontWeight: FontWeight.w600, fontSize: 15)),
                   TextSpan(
                       text: " is ",
                       style: TextStyle(
@@ -676,7 +676,7 @@ Widget n12(BuildContext context) {
                       style: TextStyle(
                         color: Color.fromARGB(255, 68, 238, 74),
                         fontSize: 15,
-                        fontWeight: FontWeight.w500,
+                        fontWeight: FontWeight.w600,
                       )),
                 ])),
             const Padding(padding: EdgeInsets.symmetric(vertical: 2)),
@@ -721,7 +721,7 @@ Widget n13(BuildContext context) {
                   TextSpan(
                       text: "+1 46273 38273",
                       style:
-                          TextStyle(fontWeight: FontWeight.w500, fontSize: 15)),
+                          TextStyle(fontWeight: FontWeight.w600, fontSize: 15)),
                 ])),
             const Padding(padding: EdgeInsets.symmetric(vertical: 2.0)),
             RichText(
@@ -746,7 +746,7 @@ Widget n13(BuildContext context) {
             Container(
                 width: 64,
                 height: 32,
-                padding: EdgeInsets.symmetric(vertical: 8),
+                padding: EdgeInsets.symmetric(vertical: 8, horizontal: 4),
                 decoration: BoxDecoration(
                     color: Color(0xfff3A3A3C),
                     borderRadius: BorderRadius.circular(16)),
@@ -755,7 +755,7 @@ Widget n13(BuildContext context) {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       color: Colors.white,
-                      fontWeight: FontWeight.w500,
+                      fontWeight: FontWeight.w400,
                       fontSize: 13,
                       letterSpacing: 1),
                 )),
@@ -784,7 +784,7 @@ Widget n14(BuildContext context) {
                     text: "November ",
                     style: TextStyle(
                       fontSize: 15,
-                      fontWeight: FontWeight.w500,
+                      fontWeight: FontWeight.w600,
                     ),
                     children: const <TextSpan>[
                   TextSpan(
@@ -806,7 +806,7 @@ Widget n14(BuildContext context) {
             Container(
                 width: 93,
                 height: 32,
-                padding: EdgeInsets.symmetric(vertical: 8),
+                padding: EdgeInsets.symmetric(vertical: 8, horizontal: 4),
                 decoration: BoxDecoration(
                     color: Color(0xfff3A3A3C),
                     borderRadius: BorderRadius.circular(16)),
@@ -815,7 +815,7 @@ Widget n14(BuildContext context) {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       color: Colors.white,
-                      fontWeight: FontWeight.w500,
+                      fontWeight: FontWeight.w400,
                       fontSize: 13,
                       letterSpacing: 1),
                 )),
@@ -852,7 +852,7 @@ Widget n15(BuildContext context) {
               "22 Jan 22’ - 28 Jan 22’",
               style: TextStyle(
                   fontSize: 13,
-                  fontWeight: FontWeight.w500,
+                  fontWeight: FontWeight.w600,
                   color: Color(0xfff8E8E93)),
             ),
             const Padding(padding: EdgeInsets.symmetric(vertical: 2)),
@@ -869,7 +869,7 @@ Widget n15(BuildContext context) {
             Container(
                 width: 93,
                 height: 32,
-                padding: EdgeInsets.symmetric(vertical: 8),
+                padding: EdgeInsets.symmetric(vertical: 8, horizontal: 4),
                 decoration: BoxDecoration(
                     color: Color(0xfff3A3A3C),
                     borderRadius: BorderRadius.circular(16)),
@@ -878,7 +878,7 @@ Widget n15(BuildContext context) {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       color: Colors.white,
-                      fontWeight: FontWeight.w500,
+                      fontWeight: FontWeight.w400,
                       fontSize: 13,
                       letterSpacing: 1),
                 )),
@@ -913,7 +913,7 @@ Widget n16(BuildContext context) {
                   TextSpan(
                       text: "\$120.99",
                       style:
-                          TextStyle(fontWeight: FontWeight.w500, fontSize: 15)),
+                          TextStyle(fontWeight: FontWeight.w600, fontSize: 15)),
                 ])),
             SizedBox(
               height: 8,
@@ -921,7 +921,7 @@ Widget n16(BuildContext context) {
             Container(
                 width: 64,
                 height: 32,
-                padding: EdgeInsets.symmetric(vertical: 8),
+                padding: EdgeInsets.symmetric(vertical: 8, horizontal: 4),
                 decoration: BoxDecoration(
                     color: Color(0xfff3A3A3C),
                     borderRadius: BorderRadius.circular(16)),
@@ -930,7 +930,7 @@ Widget n16(BuildContext context) {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       color: Colors.white,
-                      fontWeight: FontWeight.w500,
+                      fontWeight: FontWeight.w400,
                       fontSize: 13,
                       letterSpacing: 1),
                 )),
